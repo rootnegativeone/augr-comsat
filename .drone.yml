@@ -9,7 +9,6 @@ steps:
   - npm test
 
 - name: backend
-  image: golang
+  image: python
   commands:
-  - go build
-  - go test
+  - test1.py
